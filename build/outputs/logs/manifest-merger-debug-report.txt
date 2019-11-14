@@ -1,0 +1,396 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:2:1-196:12
+INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:2:1-196:12
+INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:2:1-196:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/dd1cf78f22bdd94f550130b281f27c97/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/8bb2478d12c0baf5b421024800cd7dbb/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/2a54fb7d4a09e43fd13a659c38a9bf2a/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:2:1-196:12
+INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:2:1-196:12
+	package
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:3:5-31
+	android:versionName
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+		INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+		INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+permission#com.jpush.test05.permission.JPUSH_MESSAGE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:8:5-10:47
+	android:protectionLevel
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:9:9-65
+uses-permission#com.jpush.test05.permission.JPUSH_MESSAGE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:16:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:18:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:19:5-73
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:19:22-70
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:20:5-84
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:20:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:22:22-73
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:27:22-63
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:28:5-78
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:28:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:29:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:30:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:31:5-79
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:31:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:32:5-89
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:32:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:33:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:34:22-65
+application
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:36:5-195:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/dd1cf78f22bdd94f550130b281f27c97/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/dd1cf78f22bdd94f550130b281f27c97/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/8bb2478d12c0baf5b421024800cd7dbb/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/8bb2478d12c0baf5b421024800cd7dbb/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/dd1cf78f22bdd94f550130b281f27c97/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:39:9-41
+	android:icon
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:37:9-45
+	android:allowBackup
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:38:9-36
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:40:9-64
+activity#com.example.jpushdemo.MainActivity
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:43:9-50:20
+	android:label
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:45:13-45
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:44:13-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:46:13-49:29
+action#android.intent.action.MAIN
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:48:27-74
+activity#com.example.jpushdemo.PushSetActivity
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:52:8-115
+	android:label
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:52:71-103
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:52:18-70
+activity#com.example.jpushdemo.SettingActivity
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:54:8-115
+	android:label
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:54:71-103
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:54:18-70
+activity#com.example.jpushdemo.TestActivity
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:56:9-61:20
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:56:69-93
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:56:19-68
+intent-filter#action:name:jpush.testAction+category:name:jpush.testCategory
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:57:13-60:29
+action#jpush.testAction
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:58:17-59
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:58:25-56
+category#jpush.testCategory
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:59:17-63
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:59:27-60
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:64:9-68:20
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:67:13-37
+	android:theme
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:66:13-49
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:65:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:71:9-81:20
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:75:13-37
+	android:configChanges
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:73:13-63
+	android:theme
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:74:13-60
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:72:13-60
+intent-filter#action:name:cn.jpush.android.ui.PushActivity+category:name:android.intent.category.DEFAULT+category:name:com.jpush.test05
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:76:13-80:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:77:17-75
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:77:25-72
+category#android.intent.category.DEFAULT
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:78:17-76
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:78:27-73
+category#com.jpush.test05
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:17-61
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:27-58
+service#cn.jpush.android.service.PushService
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:85:9-95:19
+	android:process
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:87:13-40
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:88:13-37
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:86:13-64
+intent-filter#action:name:cn.jpush.android.intent.PUSH_TIME+action:name:cn.jpush.android.intent.PushService+action:name:cn.jpush.android.intent.REGISTER+action:name:cn.jpush.android.intent.REPORT
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:89:13-94:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:90:17-75
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:90:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:91:17-73
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:91:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:92:17-78
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:92:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:93:17-76
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:93:25-73
+provider#cn.jpush.android.service.DataProvider
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:97:9-102:11
+	android:process
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:100:13-40
+	android:authorities
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:98:13-64
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:101:13-37
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:99:13-65
+service#cn.jpush.android.service.DaemonService
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:106:9-115:19
+	android:enabled
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:108:13-35
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:109:13-36
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:107:13-66
+intent-filter#action:name:cn.jpush.android.intent.DaemonService+category:name:com.jpush.test05
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:110:13-113:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:111:17-80
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:111:25-77
+provider#cn.jpush.android.service.DownloadProvider
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:117:9-121:11
+	android:authorities
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:118:13-68
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:120:13-36
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:119:13-69
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:123:9-142:20
+	android:enabled
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:125:13-35
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:126:13-37
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:124:13-65
+intent-filter#action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+category:name:com.jpush.test05
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:127:13-130:29
+	android:priority
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:127:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:128:17-94
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:128:25-91
+intent-filter#action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:131:13-134:29
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:132:17-77
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:132:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:133:17-79
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:133:25-76
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:136:13-141:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:137:17-78
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:137:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:138:17-80
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:138:25-77
+data
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:140:17-50
+	android:scheme
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:140:23-47
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:145:9-99
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:145:73-97
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:145:19-72
+activity#cn.jpush.android.service.JNotifyActivity
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:148:9-157:20
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:150:13-36
+	android:theme
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:152:13-72
+	android:taskAffinity
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:151:13-48
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:149:13-68
+intent-filter#action:name:cn.jpush.android.intent.JNotifyActivity+category:name:com.jpush.test05
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:153:13-156:29
+action#cn.jpush.android.intent.JNotifyActivity
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:154:17-82
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:154:25-79
+service#com.example.jpushdemo.PushService
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:161:10-166:20
+	android:process
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:162:18-45
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:161:19-67
+intent-filter#action:name:cn.jiguang.user.service.action
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:163:18-165:34
+action#cn.jiguang.user.service.action
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:164:22-78
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:164:30-75
+receiver#com.example.jpushdemo.MyReceiver
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:170:9-182:20
+	android:enabled
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:173:13-35
+	android:exported
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:172:13-37
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:171:13-60
+intent-filter#action:name:cn.jpush.android.intent.CONNECTION+action:name:cn.jpush.android.intent.MESSAGE_RECEIVED+action:name:cn.jpush.android.intent.NOTIFICATION_OPENED+action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED+action:name:cn.jpush.android.intent.REGISTRATION+category:name:com.jpush.test05
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:174:13-181:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:175:17-79
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:175:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:176:17-83
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:176:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:177:17-88
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:177:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:178:17-86
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:178:25-83
+action#cn.jpush.android.intent.CONNECTION
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:179:17-77
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:179:25-74
+receiver#com.example.jpushdemo.MyJPushMessageReceiver
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:185:9-190:20
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:185:19-78
+intent-filter#action:name:cn.jpush.android.intent.RECEIVE_MESSAGE+category:name:com.jpush.test05
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:186:13-189:29
+action#cn.jpush.android.intent.RECEIVE_MESSAGE
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:187:17-82
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:187:25-79
+meta-data#JPUSH_CHANNEL
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:192:9-84
+	android:value
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:192:49-82
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:192:20-48
+meta-data#JPUSH_APPKEY
+ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:193:9-91
+	android:value
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:193:48-88
+	android:name
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:193:20-47
+uses-sdk
+INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+MERGED from [com.android.support:support-compat:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/dd1cf78f22bdd94f550130b281f27c97/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/dd1cf78f22bdd94f550130b281f27c97/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/8bb2478d12c0baf5b421024800cd7dbb/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/8bb2478d12c0baf5b421024800cd7dbb/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/2a54fb7d4a09e43fd13a659c38a9bf2a/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/2a54fb7d4a09e43fd13a659c38a9bf2a/runtime-1.1.1/AndroidManifest.xml:20:5-44
+INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+		INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+		ADDED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+		INJECTED from /Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml

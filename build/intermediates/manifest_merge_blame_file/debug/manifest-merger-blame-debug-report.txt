@@ -1,0 +1,403 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jpush.test05"
+4    android:versionCode="338"
+5    android:versionName="3.3.8" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml
+10    <!-- Required -->
+11    <permission
+11-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:8:5-10:47
+12        android:name="com.jpush.test05.permission.JPUSH_MESSAGE"
+12-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:9:9-65
+13        android:protectionLevel="signature" />
+13-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:10:9-44
+14
+15    <!-- Required  一些系统要求的权限，如访问网络等 -->
+16    <uses-permission android:name="com.jpush.test05.permission.JPUSH_MESSAGE" />
+16-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:13:5-81
+16-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:13:22-78
+17    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+17-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:14:5-79
+17-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:14:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:15:5-67
+18-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:15:22-64
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:16:5-75
+19-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:16:22-72
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:17:5-81
+20-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:17:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:18:5-80
+21-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:18:22-77
+22    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+22-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:19:5-73
+22-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:19:22-70
+23    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+23-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:20:5-84
+23-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:20:22-81
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:21:5-79
+24-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:21:22-76
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:22:5-76
+25-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:22:22-73
+26
+27    <!-- Optional for location -->
+28    <uses-permission android:name="android.permission.VIBRATE" />
+28-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:27:5-66
+28-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:27:22-63
+29    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 用于开启 debug 版本的应用在6.0 系统上 层叠窗口权限 -->
+29-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:28:5-78
+29-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:28:22-75
+30    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+30-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:29:5-81
+30-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:29:22-78
+31    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+31-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:30:5-76
+31-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:30:22-73
+32    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+32-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:31:5-79
+32-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:31:22-76
+33    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+33-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:32:5-89
+33-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:32:22-86
+34    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+34-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:33:5-79
+34-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:33:22-76
+35    <uses-permission android:name="android.permission.GET_TASKS" />
+35-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:34:5-68
+35-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:34:22-65
+36
+37    <application
+37-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:36:5-195:19
+38        android:name="com.example.jpushdemo.ExampleApplication"
+38-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:40:9-64
+39        android:allowBackup="false"
+39-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:38:9-36
+40        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+40-->[com.android.support:support-compat:28.0.0] /Users/huangguangzhi/.gradle/caches/transforms-2/files-2.1/dd1cf78f22bdd94f550130b281f27c97/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+41        android:debuggable="true"
+42        android:icon="@drawable/ic_launcher"
+42-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:37:9-45
+43        android:label="@string/app_name"
+43-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:39:9-41
+44        android:testOnly="true" >
+45
+46        <!-- For test only 测试的主程序 -->
+47        <activity
+47-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:43:9-50:20
+48            android:name="com.example.jpushdemo.MainActivity"
+48-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:44:13-62
+49            android:label="@string/app_name" >
+49-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:45:13-45
+50            <intent-filter>
+50-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:46:13-49:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:47:17-69
+51-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:47:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:48:17-77
+53-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:48:27-74
+54            </intent-filter>
+55        </activity>
+56        <!-- For test only 测试高级功能 -->
+57        <activity
+57-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:52:8-115
+58            android:name="com.example.jpushdemo.PushSetActivity"
+58-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:52:18-70
+59            android:label="@string/app_name" />
+59-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:52:71-103
+60        <!-- For test only 测试设置 -->
+61        <activity
+61-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:54:8-115
+62            android:name="com.example.jpushdemo.SettingActivity"
+62-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:54:18-70
+63            android:label="@string/app_name" />
+63-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:54:71-103
+64        <!-- For test only 测试状态通知栏，需要打开的Activity -->
+65        <activity
+65-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:56:9-61:20
+66            android:name="com.example.jpushdemo.TestActivity"
+66-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:56:19-68
+67            android:exported="false" >
+67-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:56:69-93
+68            <intent-filter>
+68-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:57:13-60:29
+69                <action android:name="jpush.testAction" />
+69-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:58:17-59
+69-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:58:25-56
+70
+71                <category android:name="jpush.testCategory" />
+71-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:59:17-63
+71-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:59:27-60
+72            </intent-filter>
+73        </activity>
+74
+75        <!-- Rich push 核心功能 since 2.0.6 -->
+76        <activity
+76-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:64:9-68:20
+77            android:name="cn.jpush.android.ui.PopWinActivity"
+77-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:65:13-62
+78            android:exported="false"
+78-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:67:13-37
+79            android:theme="@style/MyDialogStyle" >
+79-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:66:13-49
+80        </activity>
+81
+82        <!-- Required SDK核心功能 -->
+83        <activity
+83-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:71:9-81:20
+84            android:name="cn.jpush.android.ui.PushActivity"
+84-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:72:13-60
+85            android:configChanges="orientation|keyboardHidden"
+85-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:73:13-63
+86            android:exported="false"
+86-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:75:13-37
+87            android:theme="@android:style/Theme.NoTitleBar" >
+87-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:74:13-60
+88            <intent-filter>
+88-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:76:13-80:29
+89                <action android:name="cn.jpush.android.ui.PushActivity" />
+89-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:77:17-75
+89-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:77:25-72
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:78:17-76
+91-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:78:27-73
+92                <category android:name="com.jpush.test05" />
+92-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:17-61
+92-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:27-58
+93            </intent-filter>
+94        </activity>
+95
+96        <!-- Required SDK 核心功能 -->
+97        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+98        <service
+98-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:85:9-95:19
+99            android:name="cn.jpush.android.service.PushService"
+99-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:86:13-64
+100            android:exported="false"
+100-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:88:13-37
+101            android:process=":pushcore" >
+101-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:87:13-40
+102            <intent-filter>
+102-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:89:13-94:29
+103                <action android:name="cn.jpush.android.intent.REGISTER" />
+103-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:90:17-75
+103-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:90:25-72
+104                <action android:name="cn.jpush.android.intent.REPORT" />
+104-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:91:17-73
+104-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:91:25-70
+105                <action android:name="cn.jpush.android.intent.PushService" />
+105-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:92:17-78
+105-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:92:25-75
+106                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+106-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:93:17-76
+106-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:93:25-73
+107            </intent-filter>
+108        </service>
+109        <!-- since 3.0.9 Required SDK 核心功能 -->
+110        <provider
+110-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:97:9-102:11
+111            android:name="cn.jpush.android.service.DataProvider"
+111-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:99:13-65
+112            android:authorities="com.jpush.test05.DataProvider"
+112-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:98:13-64
+113            android:exported="false"
+113-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:101:13-37
+114            android:process=":pushcore" />
+114-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:100:13-40
+115
+116        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+117        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+118        <service
+118-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:106:9-115:19
+119            android:name="cn.jpush.android.service.DaemonService"
+119-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:107:13-66
+120            android:enabled="true"
+120-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:108:13-35
+121            android:exported="true" >
+121-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:109:13-36
+122            <intent-filter>
+122-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:110:13-113:29
+123                <action android:name="cn.jpush.android.intent.DaemonService" />
+123-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:111:17-80
+123-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:111:25-77
+124
+125                <category android:name="com.jpush.test05" />
+125-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:17-61
+125-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:27-58
+126            </intent-filter>
+127        </service>
+128        <!-- since 3.1.0 Required SDK 核心功能 -->
+129        <provider
+129-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:117:9-121:11
+130            android:name="cn.jpush.android.service.DownloadProvider"
+130-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:119:13-69
+131            android:authorities="com.jpush.test05.DownloadProvider"
+131-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:118:13-68
+132            android:exported="true" />
+132-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:120:13-36
+133        <!-- Required SDK核心功能 -->
+134        <receiver
+134-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:123:9-142:20
+135            android:name="cn.jpush.android.service.PushReceiver"
+135-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:124:13-65
+136            android:enabled="true"
+136-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:125:13-35
+137            android:exported="false" >
+137-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:126:13-37
+138            <intent-filter android:priority="1000" >
+138-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:127:13-130:29
+138-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:127:28-51
+139                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+139-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:128:17-94
+139-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:128:25-91
+140                <category android:name="com.jpush.test05" />
+140-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:17-61
+140-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:27-58
+141            </intent-filter>
+142            <intent-filter>
+142-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:131:13-134:29
+143                <action android:name="android.intent.action.USER_PRESENT" />
+143-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:132:17-77
+143-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:132:25-74
+144                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+144-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:133:17-79
+144-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:133:25-76
+145            </intent-filter>
+146            <!-- Optional -->
+147            <intent-filter>
+147-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:136:13-141:29
+148                <action android:name="android.intent.action.PACKAGE_ADDED" />
+148-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:137:17-78
+148-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:137:25-75
+149                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+149-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:138:17-80
+149-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:138:25-77
+150
+151                <data android:scheme="package" />
+151-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:140:17-50
+151-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:140:23-47
+152            </intent-filter>
+153        </receiver>
+154
+155        <!-- Required SDK核心功能 -->
+156        <receiver
+156-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:145:9-99
+157            android:name="cn.jpush.android.service.AlarmReceiver"
+157-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:145:19-72
+158            android:exported="false" />
+158-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:145:73-97
+159
+160        <!-- since 3.3.0 Required SDK核心功能 -->
+161        <activity
+161-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:148:9-157:20
+162            android:name="cn.jpush.android.service.JNotifyActivity"
+162-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:149:13-68
+163            android:exported="true"
+163-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:150:13-36
+164            android:taskAffinity="jpush.custom"
+164-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:151:13-48
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+165-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:152:13-72
+166            <intent-filter>
+166-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:153:13-156:29
+167                <action android:name="cn.jpush.android.intent.JNotifyActivity" />
+167-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:154:17-82
+167-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:154:25-79
+168
+169                <category android:name="com.jpush.test05" />
+169-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:17-61
+169-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:27-58
+170            </intent-filter>
+171        </activity>
+172
+173        <!-- Since JCore2.0.0 Required SDK核心功能 -->
+174        <!-- 这个Service要继承JCommonService -->
+175        <service
+175-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:161:10-166:20
+176            android:name="com.example.jpushdemo.PushService"
+176-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:161:19-67
+177            android:process=":pushcore" >
+177-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:162:18-45
+178            <intent-filter>
+178-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:163:18-165:34
+179                <action android:name="cn.jiguang.user.service.action" />
+179-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:164:22-78
+179-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:164:30-75
+180            </intent-filter>
+181        </service>
+182
+183        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+184        <receiver
+184-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:170:9-182:20
+185            android:name="com.example.jpushdemo.MyReceiver"
+185-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:171:13-60
+186            android:enabled="true"
+186-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:173:13-35
+187            android:exported="false" >
+187-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:172:13-37
+188            <intent-filter>
+188-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:174:13-181:29
+189                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+189-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:175:17-79
+189-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:175:25-76
+190                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+190-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:176:17-83
+190-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:176:25-80
+191                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+191-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:177:17-88
+191-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:177:25-85
+192                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+192-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:178:17-86
+192-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:178:25-83
+193                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+193-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:179:17-77
+193-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:179:25-74
+194                <category android:name="com.jpush.test05" />
+194-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:17-61
+194-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:27-58
+195            </intent-filter>
+196        </receiver>
+197
+198        <!-- User defined.  For test only  用户自定义接收消息器,3.0.7开始支持,目前新tag/alias接口设置结果会在该广播接收器对应的方法中回调 -->
+199        <receiver android:name="com.example.jpushdemo.MyJPushMessageReceiver" >
+199-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:185:9-190:20
+199-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:185:19-78
+200            <intent-filter>
+200-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:186:13-189:29
+201                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+201-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:187:17-82
+201-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:187:25-79
+202
+203                <category android:name="com.jpush.test05" />
+203-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:17-61
+203-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:79:27-58
+204            </intent-filter>
+205        </receiver>
+206        <!-- Required  . Enable it you can get statistics data with channel -->
+207        <meta-data
+207-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:192:9-84
+208            android:name="JPUSH_CHANNEL"
+208-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:192:20-48
+209            android:value="developer-default" />
+209-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:192:49-82
+210        <meta-data
+210-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:193:9-91
+211            android:name="JPUSH_APPKEY"
+211-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:193:20-47
+212            android:value="d56d184d10358b1a12fd7d7d" /> <!-- </>值来自开发者平台取得的AppKey -->
+212-->/Users/huangguangzhi/Downloads/JPushExample(1513315)/AndroidManifest.xml:193:48-88
+213
+214    </application>
+215
+216</manifest>

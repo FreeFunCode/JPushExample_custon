@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":338,"versionName":"3.3.8","enabled":true,"outputFile":"JPushExample(1513315)-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.jpush.test05","split":"","minSdkVersion":"19"}}]
