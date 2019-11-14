@@ -4,6 +4,17 @@
 - 8.0渠道channel，通知栏Notification适配。
 
 
+##### 使用
+
+- 1. 修改AndroidManifest.xml 中的AppKey
+
+`<meta-data android:name="JPUSH_APPKEY" android:value="d56d184d10358b1a12fd7d7d" /> `
+
+- 2. 修改AndroidManifest.xml 中的package
+
+`package="com.jpush.test05" `
+
+
 ##### 8.0自定义消息通知栏适配
 
 ###### 创建通知渠道
